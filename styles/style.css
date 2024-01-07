@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header related style */
+.header-section {
+    background: url('../images/banner/banner1.png');
+
+}
+
+.banner-content {
+    padding: 200px 150px 160px 150px;
+    text-align: right;
+    width: 50%;
+}
+
+.banner-none {
+    width: 50%;
+}
+
+.header-banner {
+    display: flex;
+}
+
+.header-title {
+    color: #151414;
+
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.header-description {
+    color: #444343;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+
+    text-align: right;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    padding: 10px;
+    border: 0;
+
+}
+
+/* failure related style */
+.failure {
+    padding: 100px;
+}
+
+
+
+.failure-title {
+    color: #151414;
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+}
+
+.failure-description {
+    color: #444343;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.failure-list {
+    color: #444343;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.section-failure {
+    display: flex;
+    gap: 100px;
+}
+
+.failure-content {
+
+    text-align: left;
+    padding-top: 150px;
+
+}
+
+.failure-man {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    width: 527.929px;
+    height: 527.929px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+/* plan related style */
+.section-plan {
+    margin: 100px;
+}
+
+.plan-head {
+    color: #151414;
+
+    font-size: 40px;
+
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.plan-title {
+    color: #151414;
+
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+}
+
+.plan-description {
+    color: #737272;
+
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+}
+
+.plan-item {
+    /* display: flex; */
+    text-align: center;
+}
+
+.all-plan-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.plan-title {
+    margin-bottom: 0px;
+}
+
+.section-plan-image {
+    background: url('../images/gradient2.png');
+    margin-right: 100px;
+    margin: 100px 0px;
+}
+
+/* footert style */
+.footer-part {
+    display: flex;
+    gap: 100px;
+}
+
+.future-title {
+    color: #F8F8F8;
+
+    font-size: 45px;
+
+    font-weight: 700;
+
+}
+
+.future-description {
+    color: #FFF;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 0px;
+
+    /* 162.5% */
+}
+
+.section-footer {
+    background: #151414;
+    padding: 150px;
+
+}
+
+.subscribe-title {
+    color: #FFF;
+
+
+    font-size: 25px;
+
+    font-weight: 600;
+
+
+}
+
+.footer-freutu {
+    width: 50%;
+}
+
+input {
+    display: block;
+    margin: 12px 0px;
+    padding: 10px;
+   
+    border-radius: 5px;
+    background: #151414;
+    color:  #F3F3F3;
+    
+    font-size: 18px;
+   
+    font-weight: 400;
+  
+}
+
+.secondary-btn {
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 600;
+
+}
+.social-link a{
+    
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 20px;
+}
